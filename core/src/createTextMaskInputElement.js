@@ -1,15 +1,8 @@
 import adjustCaretPosition from './adjustCaretPosition'
 import conformToMask from './conformToMask'
-import {
-  convertMaskToPlaceholder,
-  isString,
-  isNumber,
-  processCaretTraps,
-  findPlaceholderCharPositions
-} from './utilities'
-import {placeholderChar as defaultPlaceholderChar} from './constants'
+import {convertMaskToPlaceholder, isString, isNumber, processCaretTraps, findPlaceholderCharPositions} from './utilities'
+import {placeholderChar as defaultPlaceholderChar, strFunction} from './constants'
 
-const strFunction = 'function'
 const emptyString = ''
 const strNone = 'none'
 const strObject = 'object'
